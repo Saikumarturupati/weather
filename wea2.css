@@ -53,8 +53,34 @@ body{
 .search button :hover{
   background-color: #0feba0;
   cursor: pointer;
-  box-shadow: 2px 2px 2px 2px red;
+  box-shadow: 2px 2px 2px 2px white;
 }
+
+
+.result-box{
+  text-align:start ;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+
+.result-box ul{
+  border-top: 1px solid #999;
+  padding: 15px 10px;
+  
+}
+.result-box ul li{
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.result-box ul li:hover{
+  background: rgb(58, 119, 85);
+}
+
+  
+
 .weather{
   top: 150px;
 }
